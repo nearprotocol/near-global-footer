@@ -5,17 +5,17 @@
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
 
-*,
-::before,
-::after {
+.near-global-footer *,
+.near-global-footer ::before,
+.near-global-footer ::after {
   box-sizing: border-box; /* 1 */
   border-width: 0; /* 2 */
   border-style: solid; /* 2 */
   border-color: #d1d1d1; /* 2 */
 }
 
-::before,
-::after {
+.near-global-footer ::before,
+.near-global-footer ::after {
   --tw-content: '';
 }
 
@@ -26,7 +26,7 @@
 4. Use the user's configured `sans` font-family by default.
 */
 
-html {
+.near-global-footer {
   line-height: 1.5; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -moz-tab-size: 4; /* 3 */
@@ -40,7 +40,7 @@ html {
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
 
-body {
+.near-global-footer {
   margin: 0; /* 1 */
   line-height: inherit; /* 2 */
 }
@@ -51,7 +51,7 @@ body {
 3. Ensure horizontal rules are visible by default.
 */
 
-hr {
+.near-global-footer hr {
   height: 0; /* 1 */
   color: inherit; /* 2 */
   border-top-width: 1px; /* 3 */
@@ -61,7 +61,7 @@ hr {
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
 
-abbr:where([title]) {
+.near-global-footer abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
 }
@@ -70,12 +70,12 @@ abbr:where([title]) {
 Remove the default font size and weight for headings.
 */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.near-global-footer h1,
+.near-global-footer h2,
+.near-global-footer h3,
+.near-global-footer h4,
+.near-global-footer h5,
+.near-global-footer h6 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -84,7 +84,7 @@ h6 {
 Reset links to optimize for opt-in styling instead of opt-out.
 */
 
-a {
+.near-global-footer a {
   color: inherit;
   text-decoration: inherit;
 }
@@ -93,8 +93,8 @@ a {
 Add the correct font weight in Edge and Safari.
 */
 
-b,
-strong {
+.near-global-footer b,
+.near-global-footer strong {
   font-weight: bolder;
 }
 
@@ -103,10 +103,10 @@ strong {
 2. Correct the odd `em` font sizing in all browsers.
 */
 
-code,
-kbd,
-samp,
-pre {
+.near-global-footer code,
+.near-global-footer kbd,
+.near-global-footer samp,
+.near-global-footer pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
@@ -115,7 +115,7 @@ pre {
 Add the correct font size in all browsers.
 */
 
-small {
+.near-global-footer small {
   font-size: 80%;
 }
 
@@ -123,19 +123,19 @@ small {
 Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 */
 
-sub,
-sup {
+.near-global-footer sub,
+.near-global-footer sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
 
-sub {
+.near-global-footer sub {
   bottom: -0.25em;
 }
 
-sup {
+.near-global-footer sup {
   top: -0.5em;
 }
 
@@ -145,7 +145,7 @@ sup {
 3. Remove gaps between table borders by default.
 */
 
-table {
+.near-global-footer table {
   text-indent: 0; /* 1 */
   border-color: inherit; /* 2 */
   border-collapse: collapse; /* 3 */
@@ -157,11 +157,11 @@ table {
 3. Remove default padding in all browsers.
 */
 
-button,
-input,
-optgroup,
-select,
-textarea {
+.near-global-footer button,
+.near-global-footer input,
+.near-global-footer optgroup,
+.near-global-footer select,
+.near-global-footer textarea {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
   line-height: inherit; /* 1 */
@@ -174,8 +174,8 @@ textarea {
 Remove the inheritance of text transform in Edge and Firefox.
 */
 
-button,
-select {
+.near-global-footer button,
+.near-global-footer select {
   text-transform: none;
 }
 
@@ -184,10 +184,10 @@ select {
 2. Remove default button styles.
 */
 
-button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+.near-global-footer button,
+.near-global-footer [type='button'],
+.near-global-footer [type='reset'],
+.near-global-footer [type='submit'] {
   -webkit-appearance: button; /* 1 */
   background-color: transparent; /* 2 */
   background-image: none; /* 2 */
@@ -197,7 +197,7 @@ button,
 Use the modern Firefox focus style for all focusable elements.
 */
 
-:-moz-focusring {
+.near-global-footer :-moz-focusring {
   outline: auto;
 }
 
@@ -205,7 +205,7 @@ Use the modern Firefox focus style for all focusable elements.
 Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
 */
 
-:-moz-ui-invalid {
+.near-global-footer :-moz-ui-invalid {
   box-shadow: none;
 }
 
@@ -213,7 +213,7 @@ Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/
 Add the correct vertical alignment in Chrome and Firefox.
 */
 
-progress {
+.near-global-footer progress {
   vertical-align: baseline;
 }
 
@@ -221,8 +221,8 @@ progress {
 Correct the cursor style of increment and decrement buttons in Safari.
 */
 
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
+.near-global-footer ::-webkit-inner-spin-button,
+.near-global-footer ::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -231,7 +231,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-[type='search'] {
+.near-global-footer [type='search'] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
@@ -240,7 +240,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 Remove the inner padding in Chrome and Safari on macOS.
 */
 
-::-webkit-search-decoration {
+.near-global-footer ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -249,7 +249,7 @@ Remove the inner padding in Chrome and Safari on macOS.
 2. Change font properties to `inherit` in Safari.
 */
 
-::-webkit-file-upload-button {
+.near-global-footer ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
@@ -258,7 +258,7 @@ Remove the inner padding in Chrome and Safari on macOS.
 Add the correct display in Chrome and Safari.
 */
 
-summary {
+.near-global-footer summary {
   display: list-item;
 }
 
@@ -266,34 +266,34 @@ summary {
 Removes the default spacing and border for appropriate elements.
 */
 
-blockquote,
-dl,
-dd,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-figure,
-p,
-pre {
+.near-global-footer blockquote,
+.near-global-footer dl,
+.near-global-footer dd,
+.near-global-footer h1,
+.near-global-footer h2,
+.near-global-footer h3,
+.near-global-footer h4,
+.near-global-footer h5,
+.near-global-footer h6,
+.near-global-footer hr,
+.near-global-footer figure,
+.near-global-footer p,
+.near-global-footer pre {
   margin: 0;
 }
 
-fieldset {
+.near-global-footer fieldset {
   margin: 0;
   padding: 0;
 }
 
-legend {
+.near-global-footer legend {
   padding: 0;
 }
 
-ol,
-ul,
-menu {
+.near-global-footer ol,
+.near-global-footer ul,
+.near-global-footer menu {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -303,7 +303,7 @@ menu {
 Prevent resizing textareas horizontally by default.
 */
 
-textarea {
+.near-global-footer textarea {
   resize: vertical;
 }
 
@@ -312,18 +312,18 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder, textarea::-moz-placeholder {
+.near-global-footer input::-moz-placeholder, .near-global-footer textarea::-moz-placeholder {
   opacity: 1; /* 1 */
   color: #9ca3af; /* 2 */
 }
 
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+.near-global-footer input:-ms-input-placeholder, .near-global-footer textarea:-ms-input-placeholder {
   opacity: 1; /* 1 */
   color: #9ca3af; /* 2 */
 }
 
-input::placeholder,
-textarea::placeholder {
+.near-global-footer input::placeholder,
+.near-global-footer textarea::placeholder {
   opacity: 1; /* 1 */
   color: #9ca3af; /* 2 */
 }
@@ -332,15 +332,15 @@ textarea::placeholder {
 Set the default cursor for buttons.
 */
 
-button,
-[role="button"] {
+.near-global-footer button,
+.near-global-footer [role="button"] {
   cursor: pointer;
 }
 
 /*
 Make sure disabled buttons don't get the pointer cursor.
 */
-:disabled {
+.near-global-footer :disabled {
   cursor: default;
 }
 
@@ -350,14 +350,14 @@ Make sure disabled buttons don't get the pointer cursor.
    This can trigger a poorly considered lint error in some tools but is included by design.
 */
 
-img,
-svg,
-video,
-canvas,
-audio,
-iframe,
-embed,
-object {
+.near-global-footer img,
+.near-global-footer svg,
+.near-global-footer video,
+.near-global-footer canvas,
+.near-global-footer audio,
+.near-global-footer iframe,
+.near-global-footer embed,
+.near-global-footer object {
   display: block; /* 1 */
   vertical-align: middle; /* 2 */
 }
@@ -366,8 +366,8 @@ object {
 Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
 */
 
-img,
-video {
+.near-global-footer img,
+.near-global-footer video {
   max-width: 100%;
   height: auto;
 }
@@ -376,11 +376,11 @@ video {
 Ensure the default browser behavior of the `hidden` attribute.
 */
 
-[hidden] {
+.near-global-footer [hidden] {
   display: none;
 }
 
-[type='text'],[type='email'],[type='url'],[type='password'],[type='number'],[type='date'],[type='datetime-local'],[type='month'],[type='search'],[type='tel'],[type='time'],[type='week'],[multiple],textarea,select {
+.near-global-footer [type='text'],.near-global-footer [type='email'],.near-global-footer [type='url'],.near-global-footer [type='password'],.near-global-footer [type='number'],.near-global-footer [type='date'],.near-global-footer [type='datetime-local'],.near-global-footer [type='month'],.near-global-footer [type='search'],.near-global-footer [type='tel'],.near-global-footer [type='time'],.near-global-footer [type='week'],.near-global-footer [multiple],.near-global-footer textarea,.near-global-footer select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -397,7 +397,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-shadow: 0 0 #0000;
 }
 
-[type='text']:focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus, [type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus {
+.near-global-footer [type='text']:focus, .near-global-footer [type='email']:focus, .near-global-footer [type='url']:focus, .near-global-footer [type='password']:focus, .near-global-footer [type='number']:focus, .near-global-footer [type='date']:focus, .near-global-footer [type='datetime-local']:focus, .near-global-footer [type='month']:focus, .near-global-footer [type='search']:focus, .near-global-footer [type='tel']:focus, .near-global-footer [type='time']:focus, .near-global-footer [type='week']:focus, .near-global-footer [multiple]:focus, .near-global-footer textarea:focus, .near-global-footer select:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
   --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
@@ -410,35 +410,35 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: #2563eb;
 }
 
-input::-moz-placeholder, textarea::-moz-placeholder {
+.near-global-footer input::-moz-placeholder, .near-global-footer textarea::-moz-placeholder {
   color: #6b7280;
   opacity: 1;
 }
 
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+.near-global-footer input:-ms-input-placeholder, .near-global-footer textarea:-ms-input-placeholder {
   color: #6b7280;
   opacity: 1;
 }
 
-input::placeholder,textarea::placeholder {
+.near-global-footer input::placeholder,.near-global-footer textarea::placeholder {
   color: #6b7280;
   opacity: 1;
 }
 
-::-webkit-datetime-edit-fields-wrapper {
+.near-global-footer ::-webkit-datetime-edit-fields-wrapper {
   padding: 0;
 }
 
-::-webkit-date-and-time-value {
+.near-global-footer ::-webkit-date-and-time-value {
   min-height: 1.5em;
 }
 
-::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field {
+.near-global-footer ::-webkit-datetime-edit,.near-global-footer ::-webkit-datetime-edit-year-field,.near-global-footer ::-webkit-datetime-edit-month-field,.near-global-footer ::-webkit-datetime-edit-day-field,.near-global-footer ::-webkit-datetime-edit-hour-field,.near-global-footer ::-webkit-datetime-edit-minute-field,.near-global-footer ::-webkit-datetime-edit-second-field,.near-global-footer ::-webkit-datetime-edit-millisecond-field,.near-global-footer ::-webkit-datetime-edit-meridiem-field {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-select {
+.near-global-footer select {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
   background-position: right 0.5rem center;
   background-repeat: no-repeat;
@@ -448,7 +448,7 @@ select {
           color-adjust: exact;
 }
 
-[multiple] {
+.near-global-footer [multiple] {
   background-image: initial;
   background-position: initial;
   background-repeat: unset;
@@ -458,7 +458,7 @@ select {
           color-adjust: unset;
 }
 
-[type='checkbox'],[type='radio'] {
+.near-global-footer [type='checkbox'],.near-global-footer [type='radio'] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -482,15 +482,15 @@ select {
   --tw-shadow: 0 0 #0000;
 }
 
-[type='checkbox'] {
+.near-global-footer [type='checkbox'] {
   border-radius: 0px;
 }
 
-[type='radio'] {
+.near-global-footer [type='radio'] {
   border-radius: 100%;
 }
 
-[type='checkbox']:focus,[type='radio']:focus {
+.near-global-footer [type='checkbox']:focus,.near-global-footer [type='radio']:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
   --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
@@ -502,7 +502,7 @@ select {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
 }
 
-[type='checkbox']:checked,[type='radio']:checked {
+.near-global-footer [type='checkbox']:checked,.near-global-footer [type='radio']:checked {
   border-color: transparent;
   background-color: currentColor;
   background-size: 100% 100%;
@@ -510,20 +510,20 @@ select {
   background-repeat: no-repeat;
 }
 
-[type='checkbox']:checked {
+.near-global-footer [type='checkbox']:checked {
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
 }
 
-[type='radio']:checked {
+.near-global-footer [type='radio']:checked {
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e");
 }
 
-[type='checkbox']:checked:hover,[type='checkbox']:checked:focus,[type='radio']:checked:hover,[type='radio']:checked:focus {
+.near-global-footer [type='checkbox']:checked:hover,.near-global-footer [type='checkbox']:checked:focus,.near-global-footer [type='radio']:checked:hover,.near-global-footer [type='radio']:checked:focus {
   border-color: transparent;
   background-color: currentColor;
 }
 
-[type='checkbox']:indeterminate {
+.near-global-footer [type='checkbox']:indeterminate {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3e%3c/svg%3e");
   border-color: transparent;
   background-color: currentColor;
@@ -532,12 +532,12 @@ select {
   background-repeat: no-repeat;
 }
 
-[type='checkbox']:indeterminate:hover,[type='checkbox']:indeterminate:focus {
+.near-global-footer [type='checkbox']:indeterminate:hover,.near-global-footer [type='checkbox']:indeterminate:focus {
   border-color: transparent;
   background-color: currentColor;
 }
 
-[type='file'] {
+.near-global-footer [type='file'] {
   background: unset;
   border-color: inherit;
   border-width: 0;
@@ -547,11 +547,11 @@ select {
   line-height: inherit;
 }
 
-[type='file']:focus {
+.near-global-footer [type='file']:focus {
   outline: 1px auto -webkit-focus-ring-color;
 }
 
-*, ::before, ::after {
+.near-global-footer *, .near-global-footer ::before, .near-global-footer ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -600,30 +600,30 @@ select {
 /* RESET */
 /* ============================================ */
 
-* {
+.near-global-footer * {
     margin: 0px;
     padding: 0px;
 }
 
-*:focus {
+.near-global-footer *:focus {
     outline: 2px solid transparent;
     outline-offset: 2px;
 }
 
-html {
+.near-global-footer {
     scroll-behavior: smooth;
 }
 
-button:focus {
+.near-global-footer button:focus {
     outline: 2px solid transparent;
     outline-offset: 2px;
 }
 
-button {
+.near-global-footer button {
     text-align: inherit;
 }
 
-img, svg {
+.near-global-footer img, .near-global-footer svg {
     pointer-events: none;
     cursor: default;
     -webkit-user-select: none;
@@ -636,7 +636,7 @@ img, svg {
 /* TYPE */
 /* ============================================ */
 
-body {
+.near-global-footer {
     font-family: Manrope, sans-serif;
     font-size: 0.875rem;
     line-height: 1.6;
@@ -645,32 +645,32 @@ body {
     color: rgb(63 66 70 / var(--tw-text-opacity));
 }
 
-i, em {
+.near-global-footer i, .near-global-footer em {
     font-style: italic;
 }
 
-b, strong {
+.near-global-footer b, .near-global-footer strong {
     font-weight: 700;
 }
 
-body[class] a, body[class] button {
+.near-global-footer body[class] a, .near-global-footer body[class] button {
     transition-duration: 500ms;
 }
 
-table {
+.near-global-footer table {
     width: 100%;
     text-align: left;
 }
 
-th, td {
+.near-global-footer th, .near-global-footer td {
     vertical-align: top;
 }
 
-th {
+.near-global-footer th {
 	font-weight: inherit;
 }
 
-.near-newsletter-form{
+.near-global-footer .near-newsletter-form{
 	position: relative;
 	--tw-bg-opacity: 1;
 	background-color: rgb(245 245 245 / var(--tw-bg-opacity));
@@ -678,7 +678,7 @@ th {
 	padding-bottom: 1rem;
 }
 
-.near-newsletter-form-container {
+.near-global-footer .near-newsletter-form-container {
 	/* .container */
 	margin-left: auto;
 	margin-right: auto;
@@ -689,41 +689,41 @@ th {
 	align-items: center;
 }
 
-.near-newsletter-form-container > :not([hidden]) ~ :not([hidden]){
+.near-global-footer .near-newsletter-form-container > :not([hidden]) ~ :not([hidden]){
 	--tw-space-y-reverse: 0;
 	margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
 	margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
-.near-newsletter-form-container{
+.near-global-footer .near-newsletter-form-container{
 	--tw-text-opacity: 1;
 	color: rgb(157 159 161 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px){
 
-	.near-newsletter-form-container{
+	.near-global-footer .near-newsletter-form-container{
 		display: flex;
 	}
 
-	.near-newsletter-form-container > :not([hidden]) ~ :not([hidden]){
+	.near-global-footer .near-newsletter-form-container > :not([hidden]) ~ :not([hidden]){
 		--tw-space-y-reverse: 0;
 		margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
 		margin-bottom: calc(0px * var(--tw-space-y-reverse));
 	}
 }
 
-.near-newsletter-form-form{
+.near-global-footer .near-newsletter-form-form{
 	position: relative;
 	flex: 1 1 0%;
 }
 
-.near-newsletter-form-input-group{
+.near-global-footer .near-newsletter-form-input-group{
 	display: flex;
 	align-items: center;
 }
 
-.near-newsletter-form-input{
+.near-global-footer .near-newsletter-form-input{
 	height: 3rem;
 	width: 100%;
 	border-width: 0px;
@@ -734,13 +734,13 @@ th {
 	color: rgb(63 66 70 / var(--tw-text-opacity));
 }
 
-.near-newsletter-form-input:focus{
+.near-global-footer .near-newsletter-form-input:focus{
 	--tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
 	--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
 	box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-.near-newsletter-form-btn {
+.near-global-footer .near-newsletter-form-btn {
 	/* .btn */
 	display: inline-flex;
 	height: 3.5rem;
@@ -753,13 +753,13 @@ th {
 	line-height: 1.5;
 }
 
-.near-newsletter-form-btn:hover{
+.near-global-footer .near-newsletter-form-btn:hover{
 	--tw-shadow: 0 .25rem 2rem rgba(95, 138, 250, .25);
 	--tw-shadow-colored: 0 .25rem 2rem var(--tw-shadow-color);
 	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.near-newsletter-form-btn {
+.near-global-footer .near-newsletter-form-btn {
 
 	/* .btn-tertiary */
 
@@ -770,24 +770,24 @@ th {
 	color: rgb(63 66 70 / var(--tw-text-opacity));
 }
 
-.near-newsletter-form-btn:hover{
+.near-global-footer .near-newsletter-form-btn:hover{
 	--tw-bg-opacity: 1;
 	background-color: rgb(63 66 70 / var(--tw-bg-opacity));
 	--tw-text-opacity: 1;
 	color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.near-newsletter-form-btn {
+.near-global-footer .near-newsletter-form-btn {
 	box-shadow: inset 0 0 0 1px;
 
 	/* .btn-sm */
 }
 
-.near-newsletter-form-btn:hover {
+.near-global-footer .near-newsletter-form-btn:hover {
 		box-shadow: inset 0 0 0 1px transparent;
 	}
 
-.near-newsletter-form-btn{
+.near-global-footer .near-newsletter-form-btn{
 	height: 2rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
@@ -798,16 +798,16 @@ th {
 	color: rgb(95 138 250 / var(--tw-text-opacity));
 }
 
-.near-newsletter-form-btn:hover{
+.near-global-footer .near-newsletter-form-btn:hover{
 	--tw-bg-opacity: 1;
 	background-color: rgb(95 138 250 / var(--tw-bg-opacity));
 }
 
-.near-newsletter-form-hidden{
+.near-global-footer .near-newsletter-form-hidden{
 	display: none;
 }
 
-.near-newsletter-form-icon{
+.near-global-footer .near-newsletter-form-icon{
 	position: absolute;
 	left: 0px;
 	top: 0px;
@@ -824,12 +824,12 @@ th {
 	cursor: default;
 }
 
-.near-newsletter-form-icon-image{
+.near-global-footer .near-newsletter-form-icon-image{
 	margin-top: auto;
 	margin-bottom: auto;
 }
 
-.near-newsletter-form-divider{
+.near-global-footer .near-newsletter-form-divider{
 	margin-left: 2rem;
 	margin-right: 2rem;
 	display: none;
@@ -839,27 +839,27 @@ th {
 
 @media (min-width: 1024px){
 
-	.near-newsletter-form-divider{
+	.near-global-footer .near-newsletter-form-divider{
 		display: block;
 	}
 }
 
-.near-newsletter-form-message{
+.near-global-footer .near-newsletter-form-message{
 	flex: 1 1 0%;
 }
 
-.near-newsletter-form-message-long{
+.near-global-footer .near-newsletter-form-message-long{
 	display: none;
 }
 
 @media (min-width: 640px){
 
-	.near-newsletter-form-message-long{
+	.near-global-footer .near-newsletter-form-message-long{
 		display: inline;
 	}
 }
 
-.near-footer{
+.near-global-footer .near-footer{
 	position: relative;
 	--tw-bg-opacity: 1;
 	background-color: rgb(252 252 252 / var(--tw-bg-opacity));
@@ -869,13 +869,13 @@ th {
 
 @media (min-width: 768px){
 
-	.near-footer{
+	.near-global-footer .near-footer{
 		padding-top: 6rem;
 		padding-bottom: 6rem;
 	}
 }
 
-.near-footer-container {
+.near-global-footer .near-footer-container {
 	/* .container */
 	margin-left: auto;
 	margin-right: auto;
@@ -885,7 +885,7 @@ th {
 	padding-right: 1.5rem;
 }
 
-.near-footer-columns{
+.near-global-footer .near-footer-columns{
 	display: grid;
 	gap: 3rem;
 	font-size: 1rem;
@@ -896,26 +896,26 @@ th {
 
 @media (min-width: 640px){
 
-	.near-footer-columns{
+	.near-global-footer .near-footer-columns{
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 }
 
 @media (min-width: 768px){
 
-	.near-footer-columns{
+	.near-global-footer .near-footer-columns{
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 }
 
 @media (min-width: 1024px){
 
-	.near-footer-columns{
+	.near-global-footer .near-footer-columns{
 		grid-template-columns: repeat(6, minmax(0, 1fr));
 	}
 }
 
-.near-footer-menu-title{
+.near-global-footer .near-footer-menu-title{
 	margin-bottom: 1.5rem;
 	font-size: 1.125rem;
 	line-height: 1.5;
@@ -924,18 +924,18 @@ th {
 	color: rgb(63 66 70 / var(--tw-text-opacity));
 }
 
-.near-footer-menu > :not([hidden]) ~ :not([hidden]){
+.near-global-footer .near-footer-menu > :not([hidden]) ~ :not([hidden]){
 	--tw-space-y-reverse: 0;
 	margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
 	margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
-.near-footer-menu a:hover{
+.near-global-footer .near-footer-menu a:hover{
 	--tw-text-opacity: 1;
 	color: rgb(38 38 38 / var(--tw-text-opacity));
 }
 
-.near-footer-social{
+.near-global-footer .near-footer-social{
 	margin-top: 3rem;
 	display: flex;
 	flex-wrap: wrap;
@@ -947,39 +947,39 @@ th {
 
 @media (min-width: 640px){
 
-	.near-footer-social{
+	.near-global-footer .near-footer-social{
 		justify-content: center;
 	}
 }
 
 @media (min-width: 768px){
 
-	.near-footer-social{
+	.near-global-footer .near-footer-social{
 		margin-top: 6rem;
 	}
 }
 
-.near-footer-social li:not(:last-child){
+.near-global-footer .near-footer-social li:not(:last-child){
 	margin-right: 1rem;
 }
 
 @media (min-width: 640px){
 
-	.near-footer-social li:not(:last-child){
+	.near-global-footer .near-footer-social li:not(:last-child){
 		margin-right: 2rem;
 	}
 }
 
-.near-footer-social a{
+.near-global-footer .near-footer-social a{
 	position: relative;
 }
 
-.near-footer-social a:hover{
+.near-global-footer .near-footer-social a:hover{
 	--tw-text-opacity: 1;
 	color: rgb(167 167 167 / var(--tw-text-opacity));
 }
 
-.near-footer-legal{
+.near-global-footer .near-footer-legal{
 	margin-top: 2rem;
 	display: flex;
 	flex-wrap: wrap;
@@ -989,17 +989,17 @@ th {
 
 @media (min-width: 640px){
 
-	.near-footer-legal{
+	.near-global-footer .near-footer-legal{
 		justify-content: center;
 	}
 }
 
-.near-footer-legal a:hover{
+.near-global-footer .near-footer-legal a:hover{
 	--tw-text-opacity: 1;
 	color: rgb(103 103 103 / var(--tw-text-opacity));
 }
 
-.near-footer-legal-sep{
+.near-global-footer .near-footer-legal-sep{
 	margin-left: 1rem;
 	margin-right: 1rem;
 	border-left-width: 1px;
