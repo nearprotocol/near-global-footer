@@ -1,5 +1,4 @@
 <!-- weglot-language -->
-
 <div class="near-global-footer">
     <form id="newsletter-form" class="near-newsletter-form" action="https://42labs.us14.list-manage.com/subscribe/post?u=faedf5dec8739fb92e05b4131&id=14e8024c6c" method="POST" target="_blank">
         <div class="near-newsletter-form-container">
@@ -12,7 +11,7 @@
                 <input type="text" name="b_faedf5dec8739fb92e05b4131_14e8024c6c" tabindex="-1" class="near-newsletter-form-hidden" value="">
 
                 <div class="near-newsletter-form-icon">
-                    <img src="https://near21.valet/wp-content/themes/near-21/assets/img/envelope.svg?t=1629754410" width="26" height="20" class="near-newsletter-form-icon-image" alt="">
+                    <img src="https://near.org/wp-content/themes/near-21/assets/img/envelope.svg?t=1630619411" width="26" height="20" class="near-newsletter-form-icon-image" alt="">
                 </div>
             </div>
 
@@ -37,21 +36,21 @@
                     <ul id="menu-near" class="near-footer-menu">
                         <li id="menu-item-13365" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13365"><a href="https://wallet.near.org">Wallet</a></li>
                         <li id="menu-item-13366" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13366"><a href="https://explorer.near.org">Explorer</a></li>
-                        <li id="menu-item-15116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15116"><a href="https://near21.valet/bridge/">ETH ↔ NEAR Bridge</a></li>
-                        <li id="menu-item-14983" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14983"><a href="https://near21.valet/brand/">Brand Toolkit</a></li>
+                        <li id="menu-item-15116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15116"><a href="https://near.org/bridge/">ETH ↔ NEAR Bridge</a></li>
+                        <li id="menu-item-14983" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14983"><a href="https://near.org/brand/">Brand Toolkit</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="near-footer-menu-title">Learn</h3>
 
                     <ul id="menu-learn" class="near-footer-menu">
-                        <li id="menu-item-14303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14303"><a href="https://near21.valet/platform/">Platform</a></li>
-                        <li id="menu-item-13497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13497"><a href="https://near21.valet/blog/">Blog</a></li>
-                        <li id="menu-item-14306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14306"><a href="https://near21.valet/technology/">Technology</a></li>
-                        <li id="menu-item-14304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14304"><a href="https://near21.valet/use-cases/">Use Cases</a></li>
-                        <li id="menu-item-14307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14307"><a href="https://near21.valet/education/">Education</a></li>
-                        <li id="menu-item-14308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14308"><a href="https://near21.valet/about/">About</a></li>
-                        <li id="menu-item-15183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15183"><a href="https://near21.valet/careers/">Careers</a></li>
+                        <li id="menu-item-14303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14303"><a href="https://near.org/platform/">Platform</a></li>
+                        <li id="menu-item-13497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13497"><a href="https://near.org/blog/">Blog</a></li>
+                        <li id="menu-item-14306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14306"><a href="https://near.org/technology/">Technology</a></li>
+                        <li id="menu-item-14304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14304"><a href="https://near.org/use-cases/">Use Cases</a></li>
+                        <li id="menu-item-14307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14307"><a href="https://near.org/education/">Education</a></li>
+                        <li id="menu-item-14308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14308"><a href="https://near.org/about/">About</a></li>
+                        <li id="menu-item-15183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15183"><a href="https://near.org/careers/">Careers</a></li>
                     </ul>
                 </div>
                 <div>
@@ -59,10 +58,10 @@
 
                     <ul id="menu-build" class="near-footer-menu">
                         <li id="menu-item-13380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13380"><a href="https://docs.near.org">Documentation ↗</a></li>
-                        <li id="menu-item-14301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14301"><a href="https://near21.valet/platform/">Platform</a></li>
-                        <li id="menu-item-14300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14300"><a href="https://near21.valet/office-hours/">Office Hours</a></li>
-                        <li id="menu-item-14742" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14742"><a href="https://near21.valet/examples/">Examples</a></li>
-                        <li id="menu-item-13498" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13498"><a href="https://near21.valet/bounties/">Bounties</a></li>
+                        <li id="menu-item-14301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14301"><a href="https://near.org/platform/">Platform</a></li>
+                        <li id="menu-item-14300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14300"><a href="https://near.org/office-hours/">Office Hours</a></li>
+                        <li id="menu-item-14742" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14742"><a href="https://near.org/examples/">Examples</a></li>
+                        <li id="menu-item-13498" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13498"><a href="https://near.org/bounties/">Bounties</a></li>
                         <li id="menu-item-15378" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15378"><a href="mailto:security@near.org">Security Report</a></li>
                     </ul>
                 </div>
@@ -70,17 +69,17 @@
                     <h3 class="near-footer-menu-title">Grow</h3>
 
                     <ul id="menu-grow" class="near-footer-menu">
-                        <li id="menu-item-14298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14298"><a href="https://near21.valet/work-with-us/">Work with Us</a></li>
-                        <li id="menu-item-14290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14290"><a href="https://near21.valet/grants/">Grants &#038; Funding</a></li>
-                        <li id="menu-item-14299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14299"><a href="https://near21.valet/owc/">Join the Accelerator</a></li>
+                        <li id="menu-item-14298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14298"><a href="https://near.org/work-with-us/">Work with Us</a></li>
+                        <li id="menu-item-14290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14290"><a href="https://near.org/grants/">Grants &#038; Funding</a></li>
+                        <li id="menu-item-14299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14299"><a href="https://near.org/owc/">Join the Accelerator</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="near-footer-menu-title">Belong</h3>
 
                     <ul id="menu-belong" class="near-footer-menu">
-                        <li id="menu-item-14288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14288"><a href="https://near21.valet/sandbox/">Open Web Sandbox</a></li>
-                        <li id="menu-item-14289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14289"><a href="https://near21.valet/guilds/">Guilds</a></li>
+                        <li id="menu-item-14288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14288"><a href="https://near.org/sandbox/">Open Web Sandbox</a></li>
+                        <li id="menu-item-14289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14289"><a href="https://near.org/guilds/">Guilds</a></li>
                         <li id="menu-item-13389" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13389"><a href="/use-cases/dao/">DAOs</a></li>
                         <li id="menu-item-13390" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13390"><a href="https://near.events">Events ↗</a></li>
                         <li id="menu-item-15121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15121"><a href="https://medium.com/nearprotocol">Community Blog ↗</a></li>
@@ -103,7 +102,7 @@
                 <li id="menu-item-13396" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13396"><a target="_blank" rel="noopener" href="https://github.com/near"><i class="fab fa-github"></i></a></li>
                 <li id="menu-item-13397" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13397"><a target="_blank" rel="noopener" href="http://near.chat/"><i class="fab fa-discord"></i></a></li>
                 <li id="menu-item-13398" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13398"><a target="_blank" rel="noopener" href="https://t.me/cryptonear"><i class="fab fa-telegram"></i></a></li>
-                <li id="menu-item-13399" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13399"><a target="_blank" rel="noopener" href="https://near21.valet/wechat"><i class="fab fa-weixin"></i></a></li>
+                <li id="menu-item-13399" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13399"><a target="_blank" rel="noopener" href="https://near.org/wechat"><i class="fab fa-weixin"></i></a></li>
                 <li id="menu-item-13400" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13400"><a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCuKdIYVN8iE3fv8alyk1aMw"><i class="fab fa-youtube"></i></a></li>
             </ul>
             <div class="near-footer-legal">
@@ -111,7 +110,7 @@
                 <span class="near-footer-legal-sep"></span>
                 <a href="mailto:hello@near.foundation">hello@near.foundation</a>
                 <span class="near-footer-legal-sep"></span>
-                <a href="/privacy/">Privacy Policy</a>
+                <a href="https://near.org/privacy/">Privacy Policy</a>
             </div>
         </div>
     </footer>
